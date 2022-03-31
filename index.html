@@ -13,37 +13,41 @@
 </head>
 
 <body>
-    <div class="container ">
-        <div class="row content d-flex justify-content-center">
-            
-            <h1 > TO DO LIST </h1>
-            
-            <div class="info">
-                <div class="row">
-                    <div class="col">
-                        <h4>TOTAL : <span class="totalcount">0</span> </h4>
-                    </div>
-                    <div class="col">
-                        <h4>Remaining : <span class="Remainingcount">0</span></h4>
-                    </div>
-                    <div class="col">
-                        <h4>completed : <span class="DONEcount">0</span> </h4>
-                    </div>
-                </div>
-            </div>
-            <div class="form">
-                <div class="row">
-                    <input type="text" class="input col-12" placeholder="What would you like to do today?">
-                    <span type="submit" class="add " value="addtask">+</span>
-                </div>
-            </div>
-            <div class="row">
-                <div class="tasks col-12"></div>
-            </div>
-        </div>
+    <section class="nav">
+        <canvas class="background" height="100%"></canvas>
+        <div class="container ">
+            <div class="row content d-flex justify-content-center">
         
-    </div>
-
+                <h1> TO DO LIST </h1>
+        
+                <div class="info">
+                    <div class="row">
+                        <div class="col">
+                            <h4>TOTAL : <span class="totalcount"></span> </h4>
+                        </div>
+                        <div class="col">
+                            <h4>Remaining : <span class="Remainingcount"></span></h4>
+                        </div>
+                        <div class="col">
+                            <h4>completed : <span class="DONEcount"></span> </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="form">
+                    <div class="row">
+                        <input type="text" class="input col-12" placeholder="What would you like to do today?">
+                        <span type="submit" class="add " value="addtask">+</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="tasks col-12"></div>
+                </div>
+            </div>
+        
+        </div>
+    </section>
+    
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
 <script src="js/main.js"></script>
 <script src="js/bootstrap.js"></script> 
 
