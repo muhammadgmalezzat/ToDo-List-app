@@ -16,8 +16,10 @@ font-family: 'Lobster', cursive;
               0 0 3px #03e9f4,
               0 0 3px #03e9f4,
               0 0 3px #03e9f4;
-background-color: #171717;
+background-color: #17171756;
 border-radius: 50px;
+position: relative;
+z-index: 30;
 }
 .info{
 color: #2896CA;
@@ -214,4 +216,30 @@ font-family: 'Lobster', cursive;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
+}
+
+
+
+
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    position: relative;
+    text-align: center;
+    padding: 0 2em;
+}
+
+
+.background {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    height: 100%;
 }
